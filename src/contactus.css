@@ -1,0 +1,221 @@
+    .cardBody-contact {
+        /*background-color: rgb(0, 70, 0);
+    */
+        /* position: unset; */
+        height: 100%;
+        text-align: center;
+        margin-top: 3em;
+        margin-bottom: 4em;
+        /* border-style: ; */
+        border-color: rgb(0, 70, 70);
+        border-radius: 0.5;
+        -webkit-border-radius: 0.5;
+        -moz-border-radius: 0.5;
+        -ms-border-radius: 0.5;
+        -o-border-radius: 0.5;
+        box-sizing: border-box;
+    }
+    
+    .contactus {
+        margin-bottom: 5.6em;
+    }
+    
+    .login {
+        margin-top: 4em;
+        margin-bottom: 8.5em;
+    }
+    
+    .inputBox-contact {
+        margin-top: 1.5em;
+        width: 100%;
+    }
+    
+    .hi {
+        color: rgba(0, 70, 70, 1);
+        font-weight: bold;
+        font-size: 1.2em;
+        /* margin-left: -9em; */
+    }
+    
+    .hi1 {
+        margin-top: 0.3em;
+    }
+    
+    .hi2 {
+        font-size: 0.8em;
+        margin-top: 1em
+    }
+    
+    .or {
+        color: rgba(0, 70, 70, 1);
+        font-weight: bold;
+        margin-top: 0.5em;
+    }
+    
+    .input-contact {
+        color: rgba(0, 70, 70, 1);
+        font-weight: bold;
+        width: 40.5em;
+        height: 2.5em;
+        background-color: whitesmoke;
+        border-color: white;
+        border-radius: 0.7em;
+        -webkit-border-radius: 0.7em;
+        -moz-border-radius: 0.7em;
+        -ms-border-radius: 0.7em;
+        -o-border-radius: 0.7em;
+        box-shadow: 2px 2px 2px rgba(0, 70, 70, 1), 2px 2px 2px white;
+    }
+    
+    .input-text {
+        width: 49em;
+        height: 10em;
+    }
+    
+    .input-contact:focus {
+        background-color: rgba(0, 70, 70, 0.9);
+        color: white;
+    }
+    
+    .submitBox {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    
+    .submitBtn-contact {
+        color: white;
+        font-size: 0.9em;
+        background-color: rgba(0, 70, 70, 1);
+        height: 2.5em;
+        width: 13em;
+        font-weight: bold;
+        border-radius: 2em;
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        -ms-border-radius: 2em;
+        -o-border-radius: 2em;
+        transition: width 0.3s, height 0.3s;
+        -webkit-transition: width 0.3s, height 0.3s;
+        -moz-transition: width 0.3s, height 0.3s;
+        -ms-transition: width 0.3s, height 0.3s;
+        -o-transition: width 0.3s, height 0.3s;
+        box-shadow: 2px 2px 2px rgba(0, 70, 70, 1), 2px 2px 2px white;
+    }
+    
+    .submitBtn-contact:hover {
+        animation-name: btnKeyframe;
+        animation-duration: 0.01s;
+        animation-timing-function: ease-in-out;
+        color: white;
+        background-color: rgba(0, 70, 70, 1);
+        width: 10em;
+        height: 2.3em;
+        font-size: 0.9em;
+        box-shadow: 2px 2px 2px white, 2px 2px 2px white;
+        border-radius: 50em;
+        -webkit-border-radius: 50em;
+        -moz-border-radius: 50em;
+        -ms-border-radius: 50em;
+        -o-border-radius: 50em;
+    }
+    
+    .below {
+        margin-top: 1.2em;
+    }
+    
+    @media screen and (max-width:1024px) {
+        .input-contact {
+            width: 35em;
+        }
+        .input-text {
+            width: 42.5em;
+            height: 8em;
+        }
+        .submitBox {
+            margin-top: 1em;
+            text-align: center;
+        }
+        .or {
+            margin-top: 0.2em;
+        }
+        .submitBtn-contact {
+            height: 2.5em;
+            width: 12em;
+        }
+        .submitBtn-contact:hover {
+            width: 10em;
+            height: 2.3em;
+        }
+        .below {
+            margin-top: 1.5em;
+        }
+    }
+    
+    @media screen and (max-width:720px) {
+        .input-contact {
+            width: 30.5em;
+        }
+        .input-text {
+            width: 37em;
+            height: 7em;
+        }
+        .submitBox {
+            margin-top: 0.8em;
+            text-align: center;
+        }
+        .or {
+            margin-top: 0.2em;
+        }
+        .submitBtn-contact {
+            height: 2.5em;
+            width: 13em;
+        }
+        .submitBtn-contact:hover {
+            width: 10em;
+            height: 2.3em;
+        }
+        .below {
+            margin-top: 1em;
+        }
+    }
+    
+    @media screen and (max-width:540px) {
+        .input-contact {
+            width: 27em;
+        }
+        .input-text {
+            width: 32em;
+            height: 10em;
+        }
+        .submitBox {
+            margin-top: 1em;
+            text-align: center;
+        }
+        .submitBtn-contact {
+            color: white;
+            height: 2.5em;
+            width: 13em;
+        }
+        .submitBtn-contact:hover {
+            width: 10em;
+            height: 2.3em;
+        }
+        .below {
+            margin-top: 1.5em;
+        }
+        .hi {
+            color: rgba(0, 70, 70, 1);
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    }
+    
+    @media screen and (max-width:420px) {
+        .input-contact {
+            width: 22em;
+        }
+        .input-text {
+            width: 25em;
+            height: 6em;
+        }
+    }

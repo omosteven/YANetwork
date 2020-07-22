@@ -1,0 +1,419 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+}
+
+.header-bar {
+    position: fixed;
+    width: 100%;
+    /* margin-top: -3em; */
+    z-index: 1;
+}
+
+header {
+    background-color: rgb(0, 70, 70);
+    height: 60px;
+    box-shadow: 2px 1px 1px rgb(0, 70, 70), 2px 2px 2px white;
+}
+
+footer {
+    margin-top: 1em;
+    background-color: rgb(0, 70, 70);
+    height: 14em;
+    box-shadow: 2px 1px 1px rgb(0, 70, 70), 2px 2px 2px white;
+}
+
+.copyRight {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.footer-top {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+.follow {
+    font-size: 1.1em;
+}
+
+.follow:hover {
+    font-size: 1.7em;
+    transition: font-size 0.2s;
+    -webkit-transition: font-size 0.2s;
+    -moz-transition: font-size 0.2s;
+    -ms-transition: font-size 0.2s;
+    -o-transition: font-size 0.2s;
+}
+
+.each-icon {
+    margin-left: 0.5em;
+    font-weight: 550;
+}
+
+.fa-copyright {
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 1.2em;
+    display: inline-block;
+    margin-left: 2em;
+    color: rgb(0, 70, 70);
+}
+
+.hd-col {
+    float: right;
+    margin-top: 1.2em;
+    margin-right: 3em;
+}
+
+.hd-col1 {
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-left: 15%;
+}
+
+.subscribe {
+    /* display: inline-block; */
+    margin-top: 0.2em;
+    float: right;
+    margin-right: 15%;
+}
+
+.sub-input {
+    border-radius: 0.5em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    height: 2.5em;
+    width: 15em;
+    color: white;
+    border-color: white;
+    border-radius: 1em;
+    background-color: rgb(0, 70, 70);
+    border: 1px solid white;
+    /*font-weight: bold;
+    */
+}
+
+.subscribe-btn {
+    /*display: inline;
+    */
+    margin-left: 0.5em;
+    background-color: rgb(0, 70, 70);
+    /*box-shadow: 2px 2px 2px wheat, 2px 2px 2px rgb(0, 70, 70);
+    */
+    color: white;
+    font-size: 0.9em;
+    height: 2.5em;
+    width: 10em;
+    font-weight: bold;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    transition: width 0.3s, height 0.3s;
+    -webkit-transition: width 0.3s, height 0.3s;
+    -moz-transition: width 0.3s, height 0.3s;
+    -ms-transition: width 0.3s, height 0.3s;
+    -o-transition: width 0.3s, height 0.3s;
+    /*border: 1px solid white;
+    */
+    box-shadow: 0px 0px 0px white, 1px 0px 0px rgb(0, 70, 70);
+}
+
+.subscribe-btn:hover {
+    height: 2.1;
+    width: 7em;
+}
+
+.all-footer-content {
+    margin-top: 0.5em;
+}
+
+.joinList {
+    color: white;
+    margin-bottom: 0.8em;
+    margin-top: -0.1em;
+    font-size: 0.8em;
+    font-weight: 550;
+}
+
+@media screen and (max-width:1500px) {
+    .all-footer-content {
+        display: none;
+    }
+    .all-footer-content-mobile {
+        display: initial;
+    }
+    .subscribe-mobile {
+        text-align: center;
+        margin-top: 1em;
+    }
+    .hd-col1-mobile {
+        text-align: center;
+        margin-top: 1em;
+        color: white;
+        font-weight: bold;
+    }
+    .socialMedia-mobile {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .hd-col1 {
+        font-size: 1em;
+        margin-left: 5%;
+    }
+    .subscribe {
+        margin-top: 0.2em;
+        margin-right: 5%;
+    }
+    .joinList {
+        color: white;
+        margin-bottom: 0.9em;
+        margin-top: -0.2em;
+        font-size: 0.9em;
+    }
+    .footer-top {
+        font-size: 1.05em;
+    }
+    .subscribe-btn {
+        height: 2.8em;
+        width: 11em;
+        font-size: 0.8em;
+    }
+    .sub-input {
+        height: 2.2em;
+        width: 15em;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .hd-col1 {
+        font-size: 1em;
+        margin-left: -4em;
+        display: block;
+        float: center;
+        /* text-align: right; */
+    }
+    .subscribe {
+        display: -moz-inline-box;
+        margin-top: 1em;
+        margin-right: 1em;
+        /* text-align: center; */
+    }
+    .joinList {
+        color: white;
+        margin-bottom: 0.9em;
+        margin-top: -0.2em;
+        font-size: 0.85em;
+    }
+    .footer-top {
+        font-size: 1em;
+    }
+    .subscribe-btn {
+        height: 2.8em;
+        width: 9em;
+        font-size: 0.8em;
+    }
+    .sub-input {
+        height: 2.2em;
+        width: 14em;
+        font-weight: 550;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .joinList {
+        color: white;
+        margin-bottom: 0.9em;
+        margin-top: -0.2em;
+        font-size: 0.8em;
+    }
+    .footer-top {
+        font-size: 0.95em;
+    }
+    .subscribe-btn {
+        height: 2.6em;
+        width: 9em;
+        font-size: 0.8em;
+    }
+    .sub-input {
+        height: 2em;
+        width: 13em;
+        font-weight: 550;
+    }
+}
+
+.hd {
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.85;
+    color: white;
+    font-weight: bold;
+    margin-left: 2em;
+    font-size: 0.8em;
+    text-justify: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.hd:hover {
+    opacity: 1;
+}
+
+.hamburg {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .hd {
+        display: inline-block;
+        margin-left: 1em;
+        font-size: 0.9em;
+        text-justify: initial;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .hd {
+        font-size: 0.85em;
+    }
+    .hd-col {
+        margin-right: 1.5em;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .hd-col {
+        display: none;
+    }
+    .hamburg {
+        float: right;
+        margin-top: 1.2em;
+        margin-right: 2em;
+        display: initial;
+        color: white;
+        opacity: 0.85;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    .hamburg:hover {
+        color: white;
+        opacity: 1;
+    }
+    header {
+        height: 50px;
+        /* z-index: 10; */
+    }
+    .menu {
+        /* display: initial; */
+        display: none;
+        /* background-color: rgb(0, 70, 70); */
+        height: 10em;
+        width: 100%;
+        position: absolute;
+        /* z-index: -1; */
+    }
+    @keyframes navBarShow {
+        0% {
+            /* height: 0em; */
+            /* background-color: rgb(0, 70, 70); */
+            /* margin-top: -5em; */
+            height: 1em;
+            /* background-color: white; */
+            color: white
+        }
+        100% {
+            /* margin-top: -0.5em; */
+            height: 11.5em;
+            /* background-color: white; */
+            color: white
+        }
+    }
+    @keyframes hrShow {
+        0% {
+            color: transparent;
+            display: none;
+        }
+        100% {
+            color: transparent;
+            display: none;
+        }
+    }
+    .navbar {
+        /*height: 10em;
+        */
+        background-color: rgba(0, 70, 70, 0.85);
+        margin-top: -0.5em;
+        box-shadow: 2px 1px 1px rgb(0, 70, 70), 2px 2px 2px white;
+        animation-name: navBarShow;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    /* .home {
+        margin-top: -0.5em;
+    } */
+    .hdm {
+        text-decoration: none;
+        opacity: 0.85;
+        font-size: 0.8em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        color: white;
+        margin-left: 1em;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+        /* background-color: rgb(0, 70, 70); */
+    }
+    .hdm:hover {
+        opacity: 1;
+    }
+    hr {
+        color: rgb(0, 70, 70);
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        animation-name: hrShow;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+}
+
+.logo1 {
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo2 {
+    color: rgb(220, 235, 52);
+    font-weight: bold;
+    font-size: 1.2em;
+}
